@@ -10,7 +10,7 @@ const connect = async () => {
    try {
       const { state, saveCreds } = await useMultiFileAuthState('Auth')
       const client = Socket({
-         browser: ['multi Auth', 'safari', '3.1.0'],
+         browser: ['Rossy-Chan', 'safari', '3.1.0'],
          printQRInTerminal: true,
          logger,
          auth: state
